@@ -10,7 +10,15 @@
 
 - just use SCAN env
 - see "https://github.com/leymir/hyperbolic-image-embeddings/tree/master/examples/fewshot"
+- use `bash` not `sh`
 - `bash get_mini.sh` in `fewshot`
+- `bash get_birds.sh`
+	- not working
+
+- `conda activate SCAN`   # pytorch-1.4.0 in SCAN. author requires pytorch-1.0
+- `python setup.py install`  # at root
+- `pip install tensorboardX`
+- `python train_protonet.py` now works.
 
 
 ## Supplementary code for the paper [Hyperbolic Image Embeddings](https://arxiv.org/abs/1904.02239).
