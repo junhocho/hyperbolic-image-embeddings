@@ -18,7 +18,8 @@
 - `conda activate SCAN`   # pytorch-1.4.0 in SCAN. author requires pytorch-1.0
 - `python setup.py install`  # at root
 - `pip install tensorboardX`
-- `python train_protonet.py` now works.
+- `python train_protonet.py` now works. at CUB
+- correct path of miniimagenet in `./examples/fewshot/dataloader/mini_imagenet.py`
 
 
 ## Supplementary code for the paper [Hyperbolic Image Embeddings](https://arxiv.org/abs/1904.02239).

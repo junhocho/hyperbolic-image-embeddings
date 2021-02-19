@@ -38,10 +38,11 @@ class ImageJitter(object):
 THIS_PATH = osp.dirname(__file__)
 ROOT_PATH = osp.abspath(osp.join(THIS_PATH, ".."))
 IMAGE_PATH = osp.join(
-    ROOT_PATH, "/workspace/simple_shot/data/miniimagenet/images"
+    # ROOT_PATH, "/workspace/simple_shot/data/miniimagenet/images"
+    ROOT_PATH, "/home/junho/Image_Clustering/CVPR2020_HIM/examples/fewshot/data/miniimagenet/images"
 )  #'data/miniimagenet/images')
 SPLIT_PATH = osp.join(
-    ROOT_PATH, "/workspace/simple_shot/split/mini"
+    ROOT_PATH, "/home/junho/Image_Clustering/CVPR2020_HIM/examples/fewshot/data/miniimagenet/split"
 )  #'data/miniimagenet/split')
 
 
