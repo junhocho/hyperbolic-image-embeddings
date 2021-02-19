@@ -5,6 +5,14 @@
   <img src="assets/pball_ops.png" width="300" /> 
 </p>
 
+
+## Junho notes:
+
+- just use SCAN env
+- see "https://github.com/leymir/hyperbolic-image-embeddings/tree/master/examples/fewshot"
+- `bash get_mini.sh` in `fewshot`
+
+
 ## Supplementary code for the paper [Hyperbolic Image Embeddings](https://arxiv.org/abs/1904.02239).
 
 ### Authors:
