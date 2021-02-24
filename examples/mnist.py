@@ -31,6 +31,7 @@ class Net(nn.Module):
         x = x.view(-1, 4 * 4 * 50)
         x = F.relu(self.fc1(x))
         x = self.fc2(x)
+        import pdb;pdb.set_trace()
         x = self.tp(x)
         return F.log_softmax(self.mlr(x, c=self.tp.c), dim=-1)
 
